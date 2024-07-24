@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+body {
+    height: 95vh;
+}
+
+header {
+    background-color: #AEE7D8;
+    height: 10%;
+}
+
+#mammeta {
+    height: 5%;
+}
+
+section {
+    height: 50%;
+}
+
+#patet {
+    height: 5%;
+}
+
+.img-profile {
+    width: 20% !important;
+    height: 20% !important;
+    object-fit: cover !important;
+}
+
+
+footer {
+    background-color: #DCC0FF;
+}
+
+#logoNav {
+    width: 10%;
+    /* Rendi l'immagine larga quanto il contenitore */
+    height: auto;
+    /* Mantieni il rapporto d'aspetto originale */
+    max-height: 100%;
+    /* Impedisci che l'altezza superi quella del contenitore */
+    object-fit: contain;
+    /* Altre opzioni: cover, fill, scale-down, none */
+}
+
+#logo {
+    width: 10%;
+    /* Rendi l'immagine larga quanto il contenitore */
+    height: auto;
+    /* Mantieni il rapporto d'aspetto originale */
+    max-height: 100%;
+    /* Impedisci che l'altezza superi quella del contenitore */
+    object-fit: contain;
+    /* Altre opzioni: cover, fill, scale-down, none */
+}
+
+.preview {
+    max-width: 50%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}

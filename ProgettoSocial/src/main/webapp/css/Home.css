@@ -1,0 +1,203 @@
+@charset "ISO-8859-1";
+body {
+    height: 95vh;
+    background-color: white;
+    color: black;
+    transition: background-color 1s ease, color 1s ease;
+
+}
+
+
+
+#mode.invertito {
+    background-color: #121212;
+    color: white;
+}
+
+.postColor{
+    background-color: white;
+    color: black;
+    transition: background-color 1s ease, color 1s ease;
+}
+.postColor.invertito{
+    background-color: #242526;
+    color: white;
+}
+header {
+    background-color: #AEE7D8;
+    height: 10%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#sidebar{
+    color: black;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    z-index: 1;
+    overflow-y: auto;
+}
+
+#sideColumn{
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
+
+#dxSidebar{
+    margin-top: 2%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.fotoProfilo{
+    max-width: 40%;
+    height: auto;
+    display: block;
+}
+
+.fotoCommento{
+    max-width: 70%;
+    height: auto;
+    display: block;
+}
+
+.imgSend{
+    max-width: 20%;
+    height: auto;
+    display: block;
+    position: relative;
+    left: 0;
+    transition: left 1s ease; 
+}
+
+.btnInvia:hover .imgSend {
+    left: calc(100% - 20px); /* Modifica il 20px con la larghezza dell'immagine per allinearla al bordo */
+  }
+
+.inserisciCommento{
+    width: 100%;
+}
+
+.immaginePost{
+    max-width: 50%;
+
+    display: block;
+}
+
+.immagineAnteprima{
+    max-width: 50%;
+    max-height: 700px;
+    display: block;
+}
+
+.sideDxImg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#btnImg {
+    transition: opacity 1s ease; /* Transizione di opacità di 1 secondo */
+}
+
+#btnImg.hide {
+    opacity: 0; /* Opacità 0 per nascondere l'immagine */
+}
+
+#logoNav {
+    width: 10%;
+    /* Rendi l'immagine larga quanto il contenitore */
+    height: auto;
+    /* Mantieni il rapporto d'aspetto originale */
+    max-height: 100%;
+    /* Impedisci che l'altezza superi quella del contenitore */
+    object-fit: contain;
+    /* Altre opzioni: cover, fill, scale-down, none */
+}
+
+
+
+#logo {
+    width: 10%;
+    /* Rendi l'immagine larga quanto il contenitore */
+    height: auto;
+    /* Mantieni il rapporto d'aspetto originale */
+    max-height: 100%;
+    /* Impedisci che l'altezza superi quella del contenitore */
+    object-fit: contain;
+    /* Altre opzioni: cover, fill, scale-down, none */
+}
+
+
+#btnTop{
+    display: none;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+#textCreaPost{
+    width: 100%;
+    height: 100px;
+
+}
+
+#creaPostDiv{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 40%;
+
+}
+
+#like-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    width: 15%;
+}
+
+#like-button-img {
+    width: 100%;
+    height: 100%;
+    transition: opacity 1ms;
+}
+
+.dislike-hidden {
+    opacity: 0;
+}
+
+#dislike-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    width: 15%;
+}
+
+#dislike-button-img {
+    width: 100%;
+    height: 100%;
+    transition: opacity 1ms;
+}
+
+.dislike-hidden {
+    opacity: 0;
+}

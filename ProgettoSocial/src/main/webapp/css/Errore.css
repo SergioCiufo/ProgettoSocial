@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+body {
+    height: 95vh;
+}
+
+header {
+    background-color: #AEE7D8;
+    margin-bottom: 10%;
+}
+
+section {
+    height: 50%;
+    min-height: 50vh;
+}
+
+
+footer {
+    background-color: #DCC0FF;
+}
+
+#logoNav {
+    width: 10%;
+    /* Rendi l'immagine larga quanto il contenitore */
+    height: auto;
+    /* Mantieni il rapporto d'aspetto originale */
+    max-height: 100%;
+    /* Impedisci che l'altezza superi quella del contenitore */
+    object-fit: contain;
+    /* Altre opzioni: cover, fill, scale-down, none */
+}
+
+
+#logo {
+    width: 10%;
+    /* Rendi l'immagine larga quanto il contenitore */
+    height: auto;
+    /* Mantieni il rapporto d'aspetto originale */
+    max-height: 100%;
+    /* Impedisci che l'altezza superi quella del contenitore */
+    object-fit: contain;
+    /* Altre opzioni: cover, fill, scale-down, none */
+}
